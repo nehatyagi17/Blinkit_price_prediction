@@ -1,62 +1,66 @@
 # Blinkit Price Prediction
 
-A machine learning project that predicts product prices using XGBoost models.
+## Overview
+This project predicts product prices for Blinkit items using Machine Learning and XGBoost algorithms. The model analyzes product attributes and generates accurate price predictions.
 
-## Project Overview
+## Problem Statement
+Predict the selling price of products based on various features such as product category, weight, visibility, outlet type, and other relevant attributes.
 
-This project uses machine learning techniques to analyze product-related data and predict prices. The application is built using Python and includes trained XGBoost classification and regression models.
+## Features
+- Data preprocessing and cleaning
+- Feature engineering
+- XGBoost Regression Model
+- XGBoost Classification Model
+- Interactive web interface
+- Real-time price prediction
 
-## Files in the Repository
+## Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- XGBoost
+- Flask
+- HTML/CSS
+- Joblib
 
-* `app.py` - Main application file
-* `index.html` - Frontend user interface
-* `requirements.txt` - Python dependencies
-* `xgb_classifier_model (1).joblib` - Trained XGBoost classifier model
-* `xgb_regressor_model (1).joblib` - Trained XGBoost regressor model
-* `Big Data Project Code (1).ipynb` - Jupyter notebook containing model development and analysis
+## Project Structure
+
+Blinkit_price_prediction/
+│
+├── app.py
+├── index.html
+├── requirements.txt
+├── xgb_classifier_model.joblib
+├── xgb_regressor_model.joblib
+└── Big Data Project Code.ipynb
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository
 
-```bash
 git clone https://github.com/nehatyagi17/Blinkit_price_prediction.git
-cd Blinkit_price_prediction
-```
 
-2. Install dependencies:
+2. Install dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
-## Running the Application
+3. Run the application
 
-Start the application with:
-
-```bash
 python app.py
-```
 
-Then open your browser and navigate to the URL displayed in the terminal.
+## Model Performance
 
-## Technologies Used
+| Model | Purpose |
+|---------|---------|
+| XGBoost Regressor | Price Prediction |
+| XGBoost Classifier | Product Classification |
 
-* Python
-* XGBoost
-* Scikit-learn
-* Pandas
-* NumPy
-* HTML
-* Joblib
-
-## Future Improvements
-
-* Improve model accuracy
-* Add more features for prediction
-* Deploy the application online
-* Enhance the user interface
+## Future Enhancements
+- Deploy on Render/Streamlit
+- Improve prediction accuracy
+- Add visualization dashboard
+- Enable batch predictions
 
 ## Author
-
 Neha Tyagi
